@@ -1,0 +1,32 @@
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: max-content;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.toggleBtn {
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.custom-switch .custom-control-label::before {
+  background-color: #28a745; /* Color of the switch when it's off */
+}
+.custom-switch .custom-control-label::after {
+  background-color: #ffffff; /* Color of the switch when it's on */
+}
+.custom-switch .custom-control-label::before,
+.custom-switch .custom-control-label::after {
+  border-radius: 25px; /* Rounded corners for the switch */
+}
